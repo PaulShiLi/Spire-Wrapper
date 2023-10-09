@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spire"
+version = "0.0.1"
+authors = [
+  { name="Paul Li", email="paul.shi.li.05@gmail.com" },
+]
+description = "A wrapper for University of Massachusett's Spire API/"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/PaulShiLi/spire"
+"Bug Tracker" = "https://github.com/PaulShiLi/spire/issues"
