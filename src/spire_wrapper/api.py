@@ -1,7 +1,7 @@
 from pathlib import Path
 import sys
 import os
-sys.path.insert(0, os.path.join(Path(os.path.dirname(os.path.abspath(__file__))).parent.resolve()))
+sys.path.insert(0, os.path.join(Path(os.path.dirname(os.path.abspath(__file__))).resolve()))
 
 from Types.Requests import Options, Buildings, Rooms, Terms, Groups, Subjects, Courses, Course_Instructor, Course_Sections, Offerings, Instructors, Sections, Coverages, Error
 from Types.Facility import Building, Room
@@ -630,10 +630,3 @@ class Spire:
     instructor: _instructors = _instructors()
     section: _sections = _sections()
     coverage: _coverages = _coverages()
-
-async def main():
-    spireObj = Spire()
-    data = await spireObj.coverage.getCoverages()
-    print(data)
-
-asyncio.run(main())
