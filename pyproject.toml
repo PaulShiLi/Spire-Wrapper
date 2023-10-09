@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "spire"
+name = "spire-wrapper"
 version = "0.0.1"
 authors = [
   { name="Paul Li", email="paul.shi.li.05@gmail.com" },
@@ -18,5 +18,5 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/PaulShiLi/spire"
-"Bug Tracker" = "https://github.com/PaulShiLi/spire/issues"
+"Homepage" = "https://github.com/PaulShiLi/spire-wrapper"
+"Bug Tracker" = "https://github.com/PaulShiLi/spire-wrapper/issues"
